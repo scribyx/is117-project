@@ -1,0 +1,181 @@
+<!-- DEVELOPER: Liam Griffin, IS117-003, Fall 2026 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Topics - Personal Portfolio</title>
+    
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header + Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <div class="container">
+                <!-- Website Logo returns to home page -->
+                <a class="navbar-brand fw-bold text-primary" href="index.html">
+                    MyPortfolio
+                </a>
+                
+                <!-- Mobile Menu Button -->
+                <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                Home
+                            </a>
+                        </li>
+                        
+                        <!-- 2-Tier Nav -->
+                        <li class="nav-item dropdown">
+                            <a 
+                                class="nav-link dropdown-toggle active" 
+                                aria-current="page"
+                                href="#" 
+                                id="academicsDropdown" 
+                                role="button" 
+                                data-bs-toggle="dropdown" 
+                                aria-expanded="false"
+                            >
+                                Academics & Tech
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="academicsDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="studies.html">
+                                        Current Studies & Skills
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item active" href="topics.html">
+                                        Tech Topics to Explore
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="journey.html">
+                                My Journey
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="interests.html">
+                                Interests
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container py-5">
+        
+        <!-- Page Title & Lead Paragraph -->
+        <section class="mb-5">
+            <h1 class="fw-bold mb-3">Tech Topics to Explore</h1>
+            <p class="lead text-muted">
+                Technology is constantly changing, and staying informed about emerging fields is an essential part of my academic development in Information Technology. Below are key technical domains that I plan to research, master, and apply to future projects.
+            </p>
+        </section>
+
+        <!-- Topic 1 -->
+        <section class="row align-items-center mb-5">
+            <div class="col-md-7">
+                <h2 class="h3 fw-bold text-primary">1. Cloud Computing & Infrastructure</h2>
+                <p>
+                    Modern businesses rely on the scalable cloud services to manage their data and to deploy software applications on a global scale. Understanding how the cloud resources are supplied/secured is one of my main goals as an IT student.
+                </p>
+                <ul>
+                    <li><strong>Concepts:</strong> Cloud storage, virtual machines, serverless technology.</li>
+                    <li><strong>To Learn:</strong> Amazon Web Services and Microsoft Azure.</li>
+                    <li><strong>Goal:</strong> Deploy static websites + dynamic web apps directly to cloud servers.</li>
+                </ul>
+            </div>
+            <div class="col-md-5">
+                <figure class="figure w-100">
+                
+                    <img 
+                        src="images/cloud-servers.jpg" 
+                        class="img-fluid rounded shadow-sm float-end" 
+                        alt="Server racks inside a cloud data center"
+                    >
+                    <figcaption class="figure-caption text-center mt-2">
+                        Data center servers powering cloud infrastructure.
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <hr class="my-5">
+
+        <!-- Topic 2 -->
+        <section class="row align-items-center mb-5">
+            <div class="col-md-5 order-md-1 order-2">
+                <figure class="figure w-100">
+                   
+                    <img 
+                        src="images/cybersecurity.jpg" 
+                        class="img-fluid rounded shadow-sm float-start" 
+                        alt="Code on screen - network protection"
+                    >
+                    <figcaption class="figure-caption text-center mt-2">
+                        Security monitoring and code analysis for threat protection.
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-7 order-md-2 order-1">
+                <h2 class="h3 fw-bold text-primary">2. Cybersecurity & Information Assurance</h2>
+                <p>
+                    Cybersecurity is my primary area of interest in Information Technology. Such as the securing of digital infrastructure, defending systems against vulnerabilities, and protecting user privacy, are the critical requirements for modern web applications/organizational networks.
+                </p>
+                <ul>
+                    <li><strong>Domains:</strong> Network security, ethical hacking, identity management.</li>
+                    <li><strong>Practices:</strong> Encryption standards, secure authentication, firewalls.</li>
+                    <li><strong>Goal:</strong> Build secure web applications and pursue industry certifications in computer security.</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Global Footer -->
+    <footer class="py-4 border-top">
+        <div class="container text-center">
+            <p class="mb-1">
+                &copy; 2026 Liam Griffin. All Rights Reserved.
+            </p>
+            <p class="mb-0">
+                <a href="contact.html">Contact Me</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

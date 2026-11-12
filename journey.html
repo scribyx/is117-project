@@ -1,0 +1,184 @@
+<!-- DEVELOPER: Liam Griffin, IS117-003, Fall 2026 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journey - Personal Portfolio</title>
+    
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Header + Navigation Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <div class="container">
+                <!-- Website Logo returns to home page -->
+                <a class="navbar-brand fw-bold text-primary" href="index.html">
+                    MyPortfolio
+                </a>
+                
+                <!-- Mobile Menu Button -->
+                <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNav" 
+                    aria-controls="navbarNav" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">
+                                Home
+                            </a>
+                        </li>
+                        
+                        <!-- 2-Tier Nav -->
+                        <li class="nav-item dropdown">
+                            <a 
+                                class="nav-link dropdown-toggle" 
+                                href="#" 
+                                id="academicsDropdown" 
+                                role="button" 
+                                data-bs-toggle="dropdown" 
+                                aria-expanded="false"
+                            >
+                                Academics & Tech
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="academicsDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="studies.html">
+                                        Current Studies & Skills
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="topics.html">
+                                        Tech Topics to Explore
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="journey.html">
+                                My Journey
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="interests.html">
+                                Interests
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container py-5">
+        
+        <!-- Page Title & Lead Paragraph -->
+        <section class="mb-5">
+            <h1 class="fw-bold mb-3">My Medical & Personal Journey</h1>
+            <p class="lead text-muted">
+                Having to navigate a complex medical history from a young age has played a huge role in defining who I am. It has taught me very valuable life lessons in perseverance, adaptability, and keeping a positive outlook throughout life and every challenge.
+            </p>
+        </section>
+
+        <!-- Section 1: Overcoming Obstacles & Physical Resilience -->
+        <section class="row align-items-center mb-5">
+            <div class="col-md-7">
+                <h2 class="h3 fw-bold text-primary">Adapting & Overcoming Physical Limits</h2>
+                <p>
+                    Having survived two strokes during infancy, I grew up dealing with physical weakness on the left side of my body. Early on, even basic mobility required extra support and a walker to help me stay balanced. Through years of dedicated physical therapy, I built up the strength needed to walk independently across campus today.
+                </p>
+                <p>
+                    Wearing ankle-foot orthosis (AFO) braces became an everyday thing for me to keep my foot stable and give me the extra support I need. While adjusting to physical differences to others took time, learning to accept my journey and build inner resilience has been one of my biggest milestones.
+                </p>
+                <ul>
+                    <li><strong>Physical Progress:</strong> Building body strength through continuous physical therapy.</li>
+                    <li><strong>Daily Support:</strong> Relying on AFO leg braces to maintain stability and balance.</li>
+                    <li><strong>Growth Mindset:</strong> Learning not to let physical limitations define my future goals.</li>
+                </ul>
+            </div>
+            <div class="col-md-5">
+                <figure class="figure w-100">
+                    <img 
+                        src="images/campus-path.jpg" 
+                        class="img-fluid rounded shadow-sm float-end" 
+                        alt="Path on NJIT campus = progress and growth throughout my life"
+                    >
+                    <figcaption class="figure-caption text-center mt-2">
+                        Navigating campus independently through perseverance.
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <hr class="my-5">
+
+        <!-- Section 2: Building Confidence & Communication -->
+        <section class="row align-items-center mb-5">
+            <div class="col-md-5 order-md-1 order-2">
+                <figure class="figure w-100">
+                    <img 
+                        src="images/presentation-prep.jpg" 
+                        class="img-fluid rounded shadow-sm float-start" 
+                        alt="Sitting with laptop preparing presentation"
+                    >
+                    <figcaption class="figure-caption text-center mt-2">
+                        Building confidence through academic growth.
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-md-7 order-md-2 order-1">
+                <h2 class="h3 fw-bold text-primary">Strengthening Confidence & Public Speaking</h2>
+                <p>
+                    School brought its own unique set of social and personal challenges. Because my strokes affected my speech , public speaking used to be a major source of anxiety. Explaining my boundaries and disability to new classmates each year felt repetitive at first, but it eventually showed me how I ultimately created more awareness.
+                </p>
+                <p>
+                    Over time, I learned to shift my focus away from self-doubt and focus on self-improvement. Facing public speaking hurdles with a positive mindset has helped me build the confidence I need for future college presentations and career interviews.
+                </p>
+                <ul>
+                    <li><strong>Advocacy:</strong> Sharing my experience to create understanding.</li>
+                    <li><strong>Communication:</strong> Overcoming nerves around speech clarity to present effectively.</li>
+                    <li><strong>Future Focus:</strong> Utilizing every obstacle as a stepping stone toward personal success.</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Global Footer -->
+    <footer class="py-4 border-top">
+        <div class="container text-center">
+            <p class="mb-1">
+                &copy; 2026 Liam Griffin. All Rights Reserved.
+            </p>
+            <p class="mb-0">
+                <a href="contact.html">Contact Me</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

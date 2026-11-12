@@ -1,0 +1,205 @@
+<!-- DEVELOPER: Liam Griffin, IS117-003, Fall 2026 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Studies - Personal Portfolio</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- Nav Bar -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <div class="container">
+                <a href="index.html" class="navbar-brand fw-bold text-primary">
+                    MyPortfolio
+                </a>
+                
+                <button 
+                    class="navbar-toggler" 
+                    type="button" 
+                    data-bs-toggle="collapse" 
+                    data-bs-target="#navbarNav"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        
+                        <!-- Dropdown Menu -->
+                        <li class="nav-item dropdown">
+                            <a 
+                                class="nav-link dropdown-toggle active" 
+                                href="#" 
+                                id="academicsDropdown" 
+                                role="button" 
+                                data-bs-toggle="dropdown" 
+                                aria-expanded="false"
+                            >
+                                Academics & Tech
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="academicsDropdown">
+                                <li>
+                                    <a class="dropdown-item active" href="studies.html">
+                                        Current Studies & Skills
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="topics.html">
+                                        Tech Topics to Explore
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="journey.html">My Journey</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="interests.html">Interests</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        
+        <!-- Header -->
+        <section class="text-center mb-5">
+            <h1 class="display-4 fw-bold text-primary">
+                Academic Studies & Skills
+            </h1>
+            <p class="lead text-muted col-md-8 mx-auto">
+                An overview of the core Information Technology concepts, coursework, and technical skills I have mastered during my sophomore year at NJIT.
+            </p>
+        </section>
+
+        <!-- Coursework Section -->
+        <section class="row align-items-center mb-5 g-4">
+            <div class="col-lg-6">
+                <h2 class="fw-bold mb-3">Core IT Coursework</h2>
+                <p>
+                    As an IT student at New Jersey Institute of Technology, my coursework focuses on building a strong foundation across multiple technology domains. Key areas of focus include:
+                </p>
+                <ul class="list-group list-group-flush mb-3">
+                    <li class="list-group-item">
+                        <strong>IS 117 - Introduction to Web Development:</strong> 
+                        Modern HTML5 structure, responsive Bootstrap layout design, CSS styling, and Git version control.
+                    </li>
+                    <li class="list-group-item">
+                        <strong>IT 114 - Advanced Programming Concepts:</strong> 
+                        Object-oriented programming principles, control structures, and algorithm design - Java network development.
+                    </li>
+                    <li class="list-group-item">
+                        <strong>CS 100 - Roadmap to Computing:</strong> 
+                        Problem-solving methodology, and computational thinking - Python programming.
+                    </li>
+                    <li class="list-group-item">
+                        <strong>CS 113 - Computer Science I:</strong> 
+                        Fundamentals of computer science and structured software programming - Java programming.
+                    </li>
+                    <li class="list-group-item">
+                        <strong>IT 101 - Introduction to Information Technology:</strong> 
+                        Hardware, software systems, and computing infrastructure principles.
+                    </li>
+                    <li class="list-group-item">
+                        <strong>IT 120 - Introduction to Network Technology:</strong> 
+                        Networking protocols, architectures, and data communications - CompTIA.
+                    </li>
+                    <li class="list-group-item">
+                        <strong>IT 201 - Information Design Techniques:</strong> 
+                        Event-driven programming & user inputs - 3D graphics, multimedia development, and animations - User experience diagramming.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-lg-6">
+                <figure class="figure w-100">
+                    <img 
+                        src="images/njit-campus.jpg" 
+                        alt="NJIT Campus" 
+                        class="img-fluid rounded shadow-sm float-end"
+                    >
+                    <figcaption class="figure-caption text-center mt-2">
+                        NJIT Information Technology learning enviorment.
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Technical Skills -->
+        <section class="row align-items-center mb-5 g-4 flex-lg-row-reverse">
+            <div class="col-lg-6">
+                <h2 class="fw-bold mb-3">Technical Toolkit & Languages</h2>
+                <p>
+                    Through hands-on projects and lab work, I am developing proficiency in both web technologies and software development workflows:
+                </p>
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <div class="border rounded p-3 bg-white h-100 shadow-sm">
+                            <h5 class="text-primary fw-bold">Web Development</h5>
+                            <p class="small text-muted mb-0">
+                                HTML5, CSS3, Bootstrap 5, Responsive Design, Web Accessibility (WCAG).
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="border rounded p-3 bg-white h-100 shadow-sm">
+                            <h5 class="text-primary fw-bold">Tools & Systems</h5>
+                            <p class="small text-muted mb-0">
+                                Git & GitHub, Git Bash terminal workflows, VS Code, Visual Studio, Windows/Linux OS, Command-Line Interface.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <figure class="figure w-100">
+                    <img 
+                        src="images/code-editor.jpg" 
+                        alt="VS Code workspace" 
+                        class="img-fluid rounded shadow-sm float-start"
+                    >
+                    <figcaption class="figure-caption text-center mt-2">
+                        Hands-on experience writing different code languages, managing Git repositories in Git Bash, and responsive styling in VS Code.
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-4 border-top">
+        <div class="container text-center">
+            <p class="mb-1">
+                &copy; 2026 Liam Griffin. All Rights Reserved.
+            </p>
+            <p class="mb-0">
+                <a href="contact.html">Contact Me</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
